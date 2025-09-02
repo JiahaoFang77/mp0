@@ -1,1 +1,30 @@
 /* Your CSS here. */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #555; /* A dark gray similar to the example */
+    width: 600px; /* Adjust the width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h1, .card h3, .card a {
+    text-align: center;
+}

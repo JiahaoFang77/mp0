@@ -1,1 +1,37 @@
 /* Your CSS here. */
+body {
+  background-color: #ffffff; /* Gray background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #555555; /* Darker gray for the card background */
+  padding: 20px;
+  height: 520px;
+  max-width: 600px; /* Adjust this value as needed */
+  margin: 0 20px; /* Adds a margin on the left and right */
+  color: white; /* Text color for readability */
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  display: block; /* Allows margin auto to work for centering */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h2 {
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+.card h1,
+.card h3 {
+    text-align: center; /* Ensures name, email, and link are horizontally centered */
+}
